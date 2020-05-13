@@ -1,24 +1,20 @@
-# vue-md-demo
+## vue-mavon-editor-render-demo
 
-## Project setup
-```
-yarn install
-```
+最近写项目需要用到, [mavon-editor](https://github.com/hinesboy/mavonEditor)
+但是在渲染的时候遇到一些问题, 闲来无事, 写个小 demo 供人参考, 也为我自己踩的坑做个笔记, 记录一下
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 主要完成功能
++ 渲染 html
++ 渲染 makdown
++ 注释: 标明一些注意事项
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 启动项目
 
-### Lints and fixes files
-```
-yarn lint
+```sh
+git clone https://gitee.com/liaohui5/vue-mavon-editor-render-demo
+
+npm i
+
+npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
